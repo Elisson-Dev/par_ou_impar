@@ -1,0 +1,15 @@
+name: _
+description: Um jogo de par ou impar.
+version: 0.0.1
+# repository: https://https://github.com/Elisson-Dev/par_ou_impar
+
+environment:
+  sdk: ^3.3.3
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
