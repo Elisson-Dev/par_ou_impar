@@ -20,6 +20,7 @@ void main(List<String> arguments) {
 
   print('Qual o intervalo de aleatórios (inteiros começando de 0 até x)? x = ');
   valor.num = int.parse(stdin.readLineSync()!);
+  valor.geraNumero(valor.num);
 
   // Apresentação do jogo
 
@@ -32,6 +33,7 @@ void main(List<String> arguments) {
 
   while (sair == false) {
     var temp = 0;
+    valor.geraNumero(valor.num);
 
     print('Adivinhe o número: ');
     numeroParaAdivinhar = int.parse(stdin.readLineSync()!);

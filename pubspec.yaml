@@ -4,7 +4,7 @@ version: 0.0.1
 # repository: https://https://github.com/Elisson-Dev/par_ou_impar
 
 environment:
-  sdk: ^3.3.3
+  sdk: ^3.3.2
 
 # Add regular dependencies here.
 dependencies:
